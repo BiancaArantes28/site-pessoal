@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "company": "Avenue",
+        "start": "04/2020",
+        "end": "05/2023",
+        "role": "Front end Developer Sênior",
+        "description": "A investments company, where I worked on their homebroker (a form to buy and sell stocks and ETFs) using React, Redux, JavaScript, TypeScript, HTML, CSS, unit tests with jest and React testing library, e2e with cypress and Scrum.",
+        "link": ""
+    },
+    {
+        "id": 1,
+        "company": "RIO The Logistics Flow Latam (Volkswagen)",
+        "start": "02/2019",
+        "end": "03/2020",
+        "role": "Front end Developer",
+        "description": "A Volkswagen project, this project was an IoT solution for trucks using React, Redux, HTML, CSS, Unit tests with Jest, e2e with cypress, JavaScript and Scrum.",
+        "link": ""
+    },
+    {
+        "id": 2,
+        "company": "Inova",
+        "start": "06/2018",
+        "end": "02/2019",
+        "role": "Front end Developer",
+        "description": "Santander Banking projects using AngularJS, .net, HTML, CSS and JavaScript and company’s project using React, Redux, HTML, CSS, JavaScript and Scrum.",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "company": "Nic.br",
+        "start": "04/2017",
+        "end": "06/2018",
+        "role": "Internship in Software Developer",
+        "description": "I worked in project that activated customers in Internet Exchange using Python, Django, JavaScript, HTML, CSS, VueJS, React and Scrum.",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "company": "InHouse Contact Center",
+        "start": "06/2016",
+        "end": "01/2017",
+        "role": "Internship in Software Developer",
+        "description": "I've built a project to create reports about customer service using PHP, HTML, CSS, JavaScript and Jquery.",
+        "link": ""
+    }
+]

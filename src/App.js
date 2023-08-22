@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import { ThemeProvider } from '@mui/material/styles';
+import { QueryClientProvider, QueryClient } from 'react-query';
 import './App.css';
+import { customTheme } from './theme';
+import { CustomMenu } from './components/CustomMenu/CustomMenu';
+import { AboutMePage } from './pages/AboutMe/views/AboutMePage';
+import { Teste } from './pages/FetchWithQuery/Teste';
+import { Search } from './pages/FetchWithQuery/Search';
+
+const queryClient = new QueryClient()
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider theme={customTheme}>
+        <CustomMenu />
+        <div className="App">
+          <AboutMePage />
+          <Teste />
+          <Search />
+        </div>
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }
 
