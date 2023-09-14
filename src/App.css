@@ -18,8 +18,20 @@ body::after {
   z-index: -1;
 }
 
+@media(max-width: 900px) {
+  body::after {
+    animation: is-panning-mobile 20s ease-in-out infinite alternate;
+  }
+}
+
 @keyframes is-panning {
   from {
       transform: translateX(-50px);
+  }
+}
+
+@keyframes is-panning-mobile {
+  from {
+    transform: translateX(-15px);
   }
 }

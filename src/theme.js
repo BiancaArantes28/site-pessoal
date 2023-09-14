@@ -20,3 +20,15 @@ export const customTheme = createTheme({
         ].join(','),
     }
 });
+
+customTheme.typography.h1 = {
+    '@media (max-width:900px)': {
+        fontSize: '2rem',
+    }
+}
+
+customTheme.typography.h4 = {
+    '@media (max-width:900px)': {
+        fontSize: '1rem',
+    }
+}

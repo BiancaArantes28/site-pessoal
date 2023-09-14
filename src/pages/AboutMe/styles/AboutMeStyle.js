@@ -2,7 +2,8 @@ import { styled } from '@mui/material/styles';
 
 export const AboutMeBox = styled('div')({
     display: 'flex',
-    minHeight: '100vh',
+    width: '100%',
+    minHeight: '60vh',
     alignItems: 'center',
     justifyContent: 'center',
 });

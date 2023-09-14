@@ -1,6 +1,7 @@
 import { Name } from "../../styles/TitleAndSubtitleStyle";
 
 export const TitleAndSubtitle = () => {
+
     return (
         <>
             <Name variant="h1">Bianca Arantes</Name>
